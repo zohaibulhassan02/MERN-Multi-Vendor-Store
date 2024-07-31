@@ -42,7 +42,7 @@ router.post(
 
       // const activationUrl = `https://eshop-tutorial-pyri.vercel.app/seller/activation/${activationToken}`;
 
-      const activationUrl = `http://localhost:3000/seller/activation/${activationToken}`;
+      const activationUrl = `https://mern-multi-vendor-store-frontend.vercel.app/seller/activation/${activationToken}`;
 
       try {
         await sendMail({
